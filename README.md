@@ -1,4 +1,4 @@
-﻿Factor Core staging tree 0.12 dsfsdfsadfasdfasdf
+﻿Factor Core staging tree 0.12
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/ghkdtnsejr6/factor.svg?branch=master)](https://travis-ci.org/ghkdtnsejr6/factor) `v0.12.0.x:` [![Build Status](https://travis-ci.org/ghkdtnsejr6/factor.svg?branch=v0.12.0.x)](https://travis-ci.org/ghkdtnsejr6/factor/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/ghkdtnsejr6/factor.svg?branch=v0.12.1.x)](https://travis-ci.org/ghkdtnsejr6/factor/branches)
