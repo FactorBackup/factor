@@ -134,9 +134,9 @@ rm SHA256SUMS
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bitcoin.org server
   into `/var/www/bin/bitcoin-core-${VERSION}`
 
-- Update dmrtsvetkov.io version ***TODO***
+- Update ghkdtnsejr6.io version ***TODO***
 
-  - First, check to see if the dmrtsvetkov.io maintainers have prepared a
+  - First, check to see if the ghkdtnsejr6.io maintainers have prepared a
     release: https://github.com/bitcoin/bitcoin.org/labels/Releases
 
       - If they have, it will have previously failed their Travis CI
@@ -155,11 +155,11 @@ rm SHA256SUMS
 
   - Factor-development mailing list
 
-  - Update title of #dmrtsvetkov on Freenode IRC
+  - Update title of #ghkdtnsejr6 on Freenode IRC
 
-  - Optionally reddit /r/Dmrtsvetkov, ... but this will usually sort out itself
+  - Optionally reddit /r/Ghkdtnsejr6, ... but this will usually sort out itself
 
-- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~dmrtsvetkov/+archive/ubuntu/factor](the PPAs) ***TODO***
+- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~ghkdtnsejr6/+archive/ubuntu/factor](the PPAs) ***TODO***
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

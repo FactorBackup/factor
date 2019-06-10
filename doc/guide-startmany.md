@@ -137,7 +137,7 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```factord getinfo```
 
-And compare with the official explorer at http://explorer.dmrtsvetkov.io/chain/Factor
+And compare with the official explorer at http://explorer.ghkdtnsejr6.io/chain/Factor
 
 ### Local
 

@@ -80,7 +80,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast) {
 }
 
 unsigned int static DarkGravityWave(const CBlockIndex* pindexLast) {
-    /* current difficulty formula, factor - DarkGravity v3, written by Evan Duffield - evan@dmrtsvetkov.io */
+    /* current difficulty formula, factor - DarkGravity v3, written by Evan Duffield - evan@ghkdtnsejr6.io */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
     int64_t nActualTimespan = 0;

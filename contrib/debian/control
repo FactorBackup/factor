@@ -22,7 +22,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.dmrtsvetkov.io/
+Homepage: http://www.ghkdtnsejr6.io/
 Vcs-Git: git://github.com/ghkdtnsejr6/factor.git
 Vcs-Browser: http://github.com/ghkdtnsejr6/factor
 

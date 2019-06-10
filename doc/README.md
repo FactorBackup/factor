@@ -34,7 +34,7 @@ Drag Factor-Qt to your applications folder, and then run Factor-Qt.
 
 * See the documentation at the [Factor Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [#dmrtsvetkov](http://webchat.freenode.net?channels=dmrtsvetkov) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dmrtsvetkov).
+* Ask for help on [#ghkdtnsejr6](http://webchat.freenode.net?channels=ghkdtnsejr6) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=ghkdtnsejr6).
 * Ask for help on the [FactorTalk](https://factortalk.org/) forums.
 
 Building
@@ -58,7 +58,7 @@ The Factor repo's [root README](https://github.com/ghkdtnsejr6/factor/blob/maste
 
 ### Resources
 * Discuss on the [FactorTalk](https://factortalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#dmrtsvetkov](http://webchat.freenode.net/?channels=dmrtsvetkov) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dmrtsvetkov).
+* Discuss on [#ghkdtnsejr6](http://webchat.freenode.net/?channels=ghkdtnsejr6) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=ghkdtnsejr6).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

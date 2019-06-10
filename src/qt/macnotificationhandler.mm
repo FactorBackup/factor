@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.dmrtsvetkov.Factor-Qt";
+        return @"io.ghkdtnsejr6.Factor-Qt";
     } else {
         return [self __bundleIdentifier];
     }

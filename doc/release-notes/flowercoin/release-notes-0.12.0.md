@@ -4,7 +4,7 @@
 
 Factor Core version 0.12.0 is now available from:
 
-  https://dmrtsvetkov.io/downloads
+  https://ghkdtnsejr6.io/downloads
 
 Please report bugs using the issue tracker at github:
 

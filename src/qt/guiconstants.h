@@ -46,7 +46,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Factor"
-#define QAPP_ORG_DOMAIN "dmrtsvetkov.io"
+#define QAPP_ORG_DOMAIN "ghkdtnsejr6.io"
 #define QAPP_APP_NAME_DEFAULT "Factor-Qt"
 #define QAPP_APP_NAME_TESTNET "Factor-Qt-testnet"
 

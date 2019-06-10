@@ -32,7 +32,7 @@
   <string>Factor-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.dmrtsvetkov.Factor-Qt</string>
+  <string>io.ghkdtnsejr6.Factor-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -65,7 +65,7 @@
         <string>application/x-factor-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>dmrtsvetkovmentrequest</string>
+          <string>ghkdtnsejr6mentrequest</string>
         </array>
       </dict>
     </dict>

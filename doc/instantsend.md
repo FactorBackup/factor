@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantSend
 
 This mechanism has been integrated into Bitcore-Node-Factor which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/dmrtsvetkov/insight-api-factor#web-socket-api](https://github.com/dmrtsvetkov/insight-api-factor#web-socket-api) 
-* API: [https://github.com/dmrtsvetkov/insight-api-factor#instantsend-transactions](https://github.com/dmrtsvetkov/insight-api-factor#instantsend-transactions) 
+* WebSocket: [https://github.com/ghkdtnsejr6/insight-api-factor#web-socket-api](https://github.com/ghkdtnsejr6/insight-api-factor#web-socket-api) 
+* API: [https://github.com/ghkdtnsejr6/insight-api-factor#instantsend-transactions](https://github.com/ghkdtnsejr6/insight-api-factor#instantsend-transactions) 
 
 ####Command line option
 

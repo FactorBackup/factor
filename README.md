@@ -1,7 +1,7 @@
 Factor Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/dmrtsvetkov/factor.svg?branch=master)](https://travis-ci.org/dmrtsvetkov/factor) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dmrtsvetkov/factor.svg?branch=v0.12.0.x)](https://travis-ci.org/dmrtsvetkov/factor/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dmrtsvetkov/factor.svg?branch=v0.12.1.x)](https://travis-ci.org/dmrtsvetkov/factor/branches)
+`master:` [![Build Status](https://travis-ci.org/ghkdtnsejr6/factor.svg?branch=master)](https://travis-ci.org/ghkdtnsejr6/factor) `v0.12.0.x:` [![Build Status](https://travis-ci.org/ghkdtnsejr6/factor.svg?branch=v0.12.0.x)](https://travis-ci.org/ghkdtnsejr6/factor/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/ghkdtnsejr6/factor.svg?branch=v0.12.1.x)](https://travis-ci.org/ghkdtnsejr6/factor/branches)
 
 https://www.factor.org
 
@@ -55,14 +55,14 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [FactorPullTester](https://github.com/dmrtsvetkov/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [FactorPullTester](https://github.com/ghkdtnsejr6/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-See https://github.com/dmrtsvetkov/QA/ for how to create a test plan. ***TODO***
+See https://github.com/ghkdtnsejr6/QA/ for how to create a test plan. ***TODO***
 
 Translations
 ------------

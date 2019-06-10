@@ -37,8 +37,8 @@ CActiveMasternode activeMasternode;
 
 /* *** BEGIN DARKSEND MAGIC - FACTOR **********
     Copyright (c) 2014-2015, Factor Developers
-        eduffield - evan@dmrtsvetkov.io
-        udjinm6   - udjinm6@dmrtsvetkov.io
+        eduffield - evan@ghkdtnsejr6.io
+        udjinm6   - udjinm6@ghkdtnsejr6.io
 */
 
 void CDarksendPool::ProcessMessageDarksend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
