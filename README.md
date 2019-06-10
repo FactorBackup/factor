@@ -95,7 +95,7 @@ The -debug=... command-line option controls debugging; running with just -debug 
 on all categories (and give you a very large debug.log file).
 
 The Qt code routes qDebug() output to debug.log under category "qt": run with -debug=qt
-to see it. sieonfosefnisenfoisnf
+to see it.
 
 **testnet and regtest modes**
 
