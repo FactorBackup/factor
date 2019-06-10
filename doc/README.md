@@ -1,4 +1,4 @@
-Flowercoin Core 0.12.0
+Factor Core 0.12.0
 =====================
 
 Setup
@@ -7,46 +7,46 @@ Setup
 
 Running
 ---------------------
-The following are some helpful notes on how to run Flowercoin on your native platform.
+The following are some helpful notes on how to run Factor on your native platform.
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Flowercoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Factor-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/flowercoin-qt (GUI, 32-bit) or bin/32/flowercoind (headless, 32-bit)
-- bin/64/flowercoin-qt (GUI, 64-bit) or bin/64/flowercoind (headless, 64-bit)
+- bin/32/factor-qt (GUI, 32-bit) or bin/32/factord (headless, 32-bit)
+- bin/64/factor-qt (GUI, 64-bit) or bin/64/factord (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run flowercoin-qt.exe.
+Unpack the files into a directory, and then run factor-qt.exe.
 
 ### OSX
 
-Drag Flowercoin-Qt to your applications folder, and then run Flowercoin-Qt.
+Drag Factor-Qt to your applications folder, and then run Factor-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Flowercoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Factor Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
 * Ask for help on [#dmrtsvetkov](http://webchat.freenode.net?channels=dmrtsvetkov) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dmrtsvetkov).
-* Ask for help on the [FlowercoinTalk](https://flowercointalk.org/) forums.
+* Ask for help on the [FactorTalk](https://factortalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Flowercoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Factor on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
 
 Development
 ---------------------
-The Flowercoin repo's [root README](https://github.com/dmrtsvetkov/flowercoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Factor repo's [root README](https://github.com/ghkdtnsejr6/factor/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,7 +57,7 @@ The Flowercoin repo's [root README](https://github.com/dmrtsvetkov/flowercoin/bl
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [FlowercoinTalk](https://flowercointalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [FactorTalk](https://factortalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#dmrtsvetkov](http://webchat.freenode.net/?channels=dmrtsvetkov) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dmrtsvetkov).
 
 ### Miscellaneous

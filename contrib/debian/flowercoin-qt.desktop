@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Flowercoin
-Comment=Flowercoin P2P Cryptocurrency
-Comment[fr]=Flowercoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Flowercoin, eşten eşe kriptografik sanal para birimi
-Exec=flowercoin-qt %u
+Name=Factor
+Comment=Factor P2P Cryptocurrency
+Comment[fr]=Factor, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Factor, eşten eşe kriptografik sanal para birimi
+Exec=factor-qt %u
 Terminal=false
 Type=Application
-Icon=flowercoin128
-MimeType=x-scheme-handler/flowercoin;
+Icon=factor128
+MimeType=x-scheme-handler/factor;
 Categories=Office;Finance;

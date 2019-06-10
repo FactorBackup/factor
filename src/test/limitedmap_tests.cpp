@@ -4,7 +4,7 @@
 
 #include "limitedmap.h"
 
-#include "test/test_flowercoin.h"
+#include "test/test_factor.h"
 
 #include <boost/test/unit_test.hpp>
 

@@ -16,13 +16,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Flowercoin"
-            VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Flowercoin)"
+            VALUE "CompanyName",        "Factor"
+            VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Factor)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "flowercoind"
+            VALUE "InternalName",       "factord"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "flowercoind.exe"
+            VALUE "OriginalFilename",   "factord.exe"
             VALUE "ProductName",        "Darkcoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

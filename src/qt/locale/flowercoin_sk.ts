@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Flowercoin adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your Factor addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Factor adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše Flowercoin adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your Factor addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše Factor adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje FLOWERCOIN-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FACTOR&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje FACTOR-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>Flowercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
-        <translation>FlowercoinCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
+        <source>Factor will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your factors from being stolen by malware infecting your computer.</source>
+        <translation>FactorCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a Flowercoin address</source>
-        <translation>Poslať mince na Flowercoin adresu</translation>
+        <source>Send coins to a Factor address</source>
+        <translation>Poslať mince na Factor adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Flowercoin: URI)</translation>
+        <source>Request payments (generates QR codes and factor: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a Factor: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Flowercoin Core</source>
-        <translation>&amp;O Flowercoin Core</translation>
+        <source>&amp;About Factor Core</source>
+        <translation>&amp;O Factor Core</translation>
     </message>
     <message>
-        <source>Show information about Flowercoin Core</source>
-        <translation>Zobraziť informácie o Flowercoin Core</translation>
+        <source>Show information about Factor Core</source>
+        <translation>Zobraziť informácie o Factor Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Flowercoin</source>
-        <translation>Upraviť možnosti konfigurácie pre Flowercoin</translation>
+        <source>Modify configuration options for Factor</source>
+        <translation>Upraviť možnosti konfigurácie pre Factor</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Flowercoin addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi Flowercoin adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your Factor addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi Factor adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Flowercoin addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Flowercoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Factor addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Factor adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a flowercoin: URI or payment request</source>
-        <translation>Otvoriť flowercoin: URI alebo žiadosť o platbu </translation>
+        <source>Open a factor: URI or payment request</source>
+        <translation>Otvoriť factor: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Flowercoin Core client</source>
-        <translation>Flowercoin Core klient</translation>
+        <source>Factor Core client</source>
+        <translation>Factor Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the Flowercoin Core help message to get a list with possible Flowercoin command-line options</source>
-        <translation>Zobraziť Flowercoin Core nápovedu k získaniu zoznamu možností príkazového riadku Flowercoin.</translation>
+        <source>Show the Factor Core help message to get a list with possible Factor command-line options</source>
+        <translation>Zobraziť Factor Core nápovedu k získaniu zoznamu možností príkazového riadku Factor.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Flowercoin network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou Flowercoin</numerusform><numerusform>%n aktívne spojenia so sieťou Flowercoin</numerusform><numerusform>%n aktívnych spojení so sieťou Flowercoin</numerusform></translation>
+        <source>%n active connection(s) to Factor network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou Factor</numerusform><numerusform>%n aktívne spojenia so sieťou Factor</numerusform><numerusform>%n aktívnych spojení so sieťou Factor</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -863,28 +863,28 @@ Adresa: %4</translation>
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 FLOWERCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 FACTOR</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 FACTOR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 FLOWERCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 FACTOR</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 FACTOR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 FLOWERCOIN pre anonimizáciu 1000 FLOWERCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 FACTOR to anonymize 1000 FACTOR</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 FACTOR pre anonimizáciu 1000 FACTOR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 FLOWERCOIN pre anonimizáciu 1000 FLOWERCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 FACTOR to anonymize 1000 FACTOR</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 FACTOR pre anonimizáciu 1000 FACTOR</translation>
     </message>
     <message>
-        <source>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</source>
-        <translation>0.1 FLOWERCOIN za 1000 FLOWERCOIN ktoré spravíte anonymnými.</translation>
+        <source>0.1 FACTOR per 1000 FACTOR you anonymize.</source>
+        <translation>0.1 FACTOR za 1000 FACTOR ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -895,16 +895,16 @@ Adresa: %4</translation>
         <translation>Konfigurácia Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Flowercoin.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Factor.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Flowercoin.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Factor.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Flowercoin.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Factor.</translation>
     </message>
 </context>
 <context>
@@ -946,8 +946,8 @@ Adresa: %4</translation>
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Flowercoin address.</source>
-        <translation>Zadaná adresa "%1" nie je platná Flowercoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Factor address.</source>
+        <translation>Zadaná adresa "%1" nie je platná Factor adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Flowercoin Core</source>
-        <translation>O Flowercoin Core</translation>
+        <source>About Factor Core</source>
+        <translation>O Factor Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Flowercoin Core.</source>
-        <translation>Vitajte v Flowercoin Core.</translation>
+        <source>Welcome to Factor Core.</source>
+        <translation>Vitajte v Factor Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flowercoin Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Flowercoin Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Factor Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Factor Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Flowercoin Core will download and store a copy of the Flowercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Flowercoin Core stiahne a uloží kópiu reťazca blokov Flowercoin. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Factor Core will download and store a copy of the Factor block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Factor Core stiahne a uloží kópiu reťazca blokov Factor. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1121,12 +1121,12 @@ Adresa: %4</translation>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start Flowercoin after logging in to the system.</source>
-        <translation>Automaticky spustiť Flowercoin po prihlásení do systému.</translation>
+        <source>Automatically start Factor after logging in to the system.</source>
+        <translation>Automaticky spustiť Factor po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start Flowercoin on system login</source>
-        <translation>&amp;Spusť Flowercoin po prihlásení do systému</translation>
+        <source>&amp;Start Factor on system login</source>
+        <translation>&amp;Spusť Factor po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1153,8 +1153,8 @@ Adresa: %4</translation>
         <translation>Táto suma slúži ako hranica pre vypnutie Darksend akonáhle je dosiahnutá</translation>
     </message>
     <message>
-        <source>Amount of Flowercoin to keep anonymized</source>
-        <translation>Suma Flowercoin ktorú držať anonymne </translation>
+        <source>Amount of Factor to keep anonymized</source>
+        <translation>Suma Factor ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1173,8 +1173,8 @@ Adresa: %4</translation>
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Flowercoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete Flowercoin cez proxy SOCKS5.</translation>
+        <source>Connect to the Factor network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete Factor cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1205,8 +1205,8 @@ Adresa: %4</translation>
         <translation>Sieť</translation>
     </message>
     <message>
-        <source>Automatically open the Flowercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť na smerovači port pre Flowercoin klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
+        <source>Automatically open the Factor client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre Factor klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,14 +1257,14 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Flowercoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní Flowercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Factor.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní Factor.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/factor/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/factor/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1346,8 +1346,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Flowercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Flowercoin akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Factor network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Factor akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1430,8 +1430,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 FLOWERCOIN / 0 Rounds</source>
-        <translation>0 FLOWERCOIN / 0 Kôl</translation>
+        <source>0 FACTOR / 0 Rounds</source>
+        <translation>0 FACTOR / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1567,8 +1567,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Flowercoin sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start factor: click-to-pay handler</source>
+        <translation>Factor sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1587,8 +1587,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Flowercoin address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Flowercoin adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Factor address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Factor adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Flowercoin address (e.g. %1)</source>
-        <translation>Zadajte Flowercoin adresu (e.g. %1)</translation>
+        <source>Enter a Factor address (e.g. %1)</source>
+        <translation>Zadajte Factor adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1763,8 +1763,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Počet pripojení</translation>
     </message>
     <message>
-        <source>Open the Flowercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť denník ladenia Flowercoin zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
+        <source>Open the Factor debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia Factor zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1971,8 +1971,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Von:</translation>
     </message>
     <message>
-        <source>Welcome to the Flowercoin RPC console.</source>
-        <translation>Vitajte v konzole Flowercoin RPC</translation>
+        <source>Welcome to the Factor RPC console.</source>
+        <translation>Vitajte v konzole Factor RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2034,8 +2034,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Flowercoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Factor network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Factor.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2046,8 +2046,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Flowercoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Factor network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Factor.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2291,8 +2291,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Flowercoin transakciách väčší ako dokáže sieť Flowercoin spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for factor transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Factor transakciách väčší ako dokáže sieť Factor spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2495,8 +2495,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Flowercoin address</source>
-        <translation>Upozornenie: Neplatná Flowercoin adresa</translation>
+        <source>Warning: Invalid Factor address</source>
+        <translation>Upozornenie: Neplatná Factor adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2518,8 +2518,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The Flowercoin address to send the payment to</source>
-        <translation>Flowercoin adresa pre poslanie platby</translation>
+        <source>The Factor address to send the payment to</source>
+        <translation>Factor adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2558,8 +2558,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Flowercoin network.</source>
-        <translation>Správa ktorá bola pripojená ku flowercoin: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Flowercoin.</translation>
+        <source>A message that was attached to the factor: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Factor network.</source>
+        <translation>Správa ktorá bola pripojená ku factor: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Factor.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2585,8 +2585,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flowercoin Core is shutting down...</source>
-        <translation>Flowercoin core sa vypína...</translation>
+        <source>Factor Core is shutting down...</source>
+        <translation>Factor core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The Flowercoin address to sign the message with</source>
-        <translation>Flowercoin adresa na podpísanie správy</translation>
+        <source>The Factor address to sign the message with</source>
+        <translation>Factor adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2640,8 +2640,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Flowercoin address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Flowercoin adresu</translation>
+        <source>Sign the message to prove you own this Factor address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Factor adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2664,12 +2664,12 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The Flowercoin address the message was signed with</source>
-        <translation>Adresa Flowercoin s ktorou bola podpísaná správa</translation>
+        <source>The Factor address the message was signed with</source>
+        <translation>Adresa Factor s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Flowercoin address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Flowercoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Factor address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Factor adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2747,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The Flowercoin Core developers</source>
-        <translation>Vývojári Flowercoin Core</translation>
+        <source>The Factor Core developers</source>
+        <translation>Vývojári Factor Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3275,8 +3275,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Poslať Bitcoins</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FLOWERCOIN.</source>
-        <translation>InstantX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 FLOWERCOIN.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FACTOR.</source>
+        <translation>InstantX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 FACTOR.</translation>
     </message>
 </context>
 <context>
@@ -3319,14 +3319,14 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>factor-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flowercoin Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Flowercoin Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Factor Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Factor Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,16 +3381,16 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flowercoin Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Flowercoin Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Factor Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Factor Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Nedá sa nájsť dostatok denominácií Darksend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných Darksend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FACTOR.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných Darksend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 FACTOR.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3613,8 +3613,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <source>Disable all Flowercoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre Flowercoin (Masternode, Darksend, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
+        <source>Disable all Factor specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre Factor (Masternode, Darksend, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3633,12 +3633,12 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Poplatky (v FLOWERCOIN za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
+        <source>Fees (in FACTOR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Poplatky (v FACTOR za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Poplatky (v FLOWERCOIN za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
+        <source>Fees (in FACTOR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Poplatky (v FACTOR za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3709,32 +3709,32 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use factord, or the -server option to factor-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=factorrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Factor Alert" admin@foo.com
 </source>
-        <translation>Pre použitie možnosti -server pre flowercoin-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
+        <translation>Pre použitie možnosti -server pre factor-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodné heslo:
-rpcuser=flowercoinrpc
+rpcuser=factorrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Používateľské meno a heslo NEMÔŽU byť rovnaké.
 Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
 Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
-napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s "Factor Upozornenie" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 FACTOR.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 FACTOR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3745,8 +3745,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flowercoin Core will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Flowercoin Core nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Factor Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Factor Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flowercoin Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra Flowercoin</translation>
+        <source>Copyright (C) 2014-%i The Factor Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra Factor</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flowercoin Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Flowercoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Factor Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Factor Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3847,8 +3847,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Chyba: nájdený nepodporovaný argument -tor, použite -onion.</translation>
     </message>
     <message>
-        <source>Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Pridať poplatok (v FLOWERCOIN za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
+        <source>Fee (in FACTOR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Pridať poplatok (v FACTOR za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3903,8 +3903,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flowercoin Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Flowercoin Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Factor Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Factor Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flowercoin Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Flowercoin Core</translation>
+        <source>Wallet needed to be rewritten: restart Factor Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Factor Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4215,8 +4215,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N FLOWERCOIN anonymized (default: %u)</source>
-        <translation>Udržiavať N FLOWERCOIN anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N FACTOR anonymized (default: %u)</source>
+        <translation>Udržiavať N FACTOR anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

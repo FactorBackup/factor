@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. flowercoin_test
+	$(MAKE) -C .. factor_test
 clean:
-	$(MAKE) -C .. flowercoin_test_clean
+	$(MAKE) -C .. factor_test_clean
 check:
-	$(MAKE) -C .. flowercoin_test_check
+	$(MAKE) -C .. factor_test_check

@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/flowercoin-config.h"
+#include "config/factor-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -82,8 +82,8 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("FLOWERCOIN-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("FLOWERCOIN-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("FACTOR-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("FACTOR-traditional"), QVariant("trad"));
 
     
     /* Language selector */

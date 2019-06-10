@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.flowercoin.flowercoind</string>
+	<string>org.factor.factord</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/flowercoind</string>
+		<string>/usr/local/bin/factord</string>
 		<string>-daemon</string>
 	</array>
 	<key>RunAtLoad</key>

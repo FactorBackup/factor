@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Flowercoin"
-            VALUE "FileDescription",    "Flowercoin-cli (OSS RPC client for Flowercoin)"
+            VALUE "CompanyName",        "Factor"
+            VALUE "FileDescription",    "Factor-cli (OSS RPC client for Factor)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "flowercoin-cli"
+            VALUE "InternalName",       "factor-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "flowercoin-cli.exe"
-            VALUE "ProductName",        "Flowercoin-cli"
+            VALUE "OriginalFilename",   "factor-cli.exe"
+            VALUE "ProductName",        "Factor-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

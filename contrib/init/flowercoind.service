@@ -1,15 +1,15 @@
 [Unit]
-Description=Flowercoin's distributed currency daemon
+Description=Factor's distributed currency daemon
 After=network.target
 
 [Service]
-User=flowercoin
-Group=flowercoin
+User=factor
+Group=factor
 
 Type=forking
-PIDFile=/var/lib/flowercoind/flowercoind.pid
-ExecStart=/usr/bin/flowercoind -daemon -pid=/var/lib/flowercoind/flowercoind.pid \
--conf=/etc/flowercoin/flowercoin.conf -datadir=/var/lib/flowercoind -disablewallet
+PIDFile=/var/lib/factord/factord.pid
+ExecStart=/usr/bin/factord -daemon -pid=/var/lib/factord/factord.pid \
+-conf=/etc/factor/factor.conf -datadir=/var/lib/factord -disablewallet
 
 Restart=always
 PrivateTmp=true

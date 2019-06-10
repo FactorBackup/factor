@@ -1,25 +1,25 @@
-# /etc/conf.d/flowercoind: config file for /etc/init.d/flowercoind
+# /etc/conf.d/factord: config file for /etc/init.d/factord
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/flowercoin/flowercoin.conf"
+#BITCOIND_CONFIGFILE="/etc/factor/factor.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/flowercoind"
+#BITCOIND_PIDDIR="/var/run/factord"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/flowercoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/factord.pid"
 
-# Where to write flowercoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/flowercoind"
+# Where to write factord data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/factord"
 
-# User and group to own flowercoind process
-#BITCOIND_USER="flowercoin"
-#BITCOIND_GROUP="flowercoin"
+# User and group to own factord process
+#BITCOIND_USER="factor"
+#BITCOIND_GROUP="factor"
 
-# Path to flowercoind executable
-#BITCOIND_BIN="/usr/bin/flowercoind"
+# Path to factord executable
+#BITCOIND_BIN="/usr/bin/factord"
 
-# Nice value to run flowercoind under
+# Nice value to run factord under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

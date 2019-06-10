@@ -1,42 +1,42 @@
-Flowercoin Core staging tree 0.12
+Factor Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/dmrtsvetkov/flowercoin.svg?branch=master)](https://travis-ci.org/dmrtsvetkov/flowercoin) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dmrtsvetkov/flowercoin.svg?branch=v0.12.0.x)](https://travis-ci.org/dmrtsvetkov/flowercoin/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dmrtsvetkov/flowercoin.svg?branch=v0.12.1.x)](https://travis-ci.org/dmrtsvetkov/flowercoin/branches)
+`master:` [![Build Status](https://travis-ci.org/dmrtsvetkov/factor.svg?branch=master)](https://travis-ci.org/dmrtsvetkov/factor) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dmrtsvetkov/factor.svg?branch=v0.12.0.x)](https://travis-ci.org/dmrtsvetkov/factor/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dmrtsvetkov/factor.svg?branch=v0.12.1.x)](https://travis-ci.org/dmrtsvetkov/factor/branches)
 
-https://www.flowercoin.org
+https://www.factor.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 Flowercoin Core Developers
+Copyright (c) 2014-2015 Factor Core Developers
 
 
-What is Flowercoin?
+What is Factor?
 ----------------
 
-Flowercoin is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Flowercoin uses peer-to-peer technology
+Factor is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Factor uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Flowercoin Core is the name of open
+are carried out collectively by the network. Factor Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Flowercoin Core software, see https://www.flowercoin.org/downloads.
+the Factor Core software, see https://www.factor.org/downloads.
 
 
 License
 -------
 
-Flowercoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Factor Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/dmrtsvetkov/flowercoin/tags) are created to indicate new official,
-stable release versions of Flowercoin Core.
+[Tags](https://github.com/ghkdtnsejr6/factor/tags) are created to indicate new official,
+stable release versions of Factor Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/dmrtsvetkov/flowercoin/blob/v0.12.1.x/CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/ghkdtnsejr6/factor/blob/v0.12.1.x/CONTRIBUTING.md).
 
 
 Testing
@@ -55,7 +55,7 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [FlowercoinPullTester](https://github.com/dmrtsvetkov/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [FactorPullTester](https://github.com/dmrtsvetkov/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
@@ -68,7 +68,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/flowercoin/).
+[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/factor/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -76,7 +76,7 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/flowercoin-translators). ***TODO***
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/factor-translators). ***TODO***
 
 Development tips and tricks
 ---------------------------
@@ -99,7 +99,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play flowercoin" on the test network, if you
+Run with the -testnet option to run with "play factor" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -108,7 +108,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Flowercoin Core is a multithreaded application, and deadlocks or other multithreading bugs
+Factor Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.

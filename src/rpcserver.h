@@ -93,7 +93,7 @@ public:
 };
 
 /**
- * Flowercoin RPC command dispatcher.
+ * Factor RPC command dispatcher.
  */
 class CRPCTable
 {

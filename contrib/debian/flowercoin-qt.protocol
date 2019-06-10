@@ -1,6 +1,6 @@
 [Protocol]
-exec=flowercoin-qt '%u'
-protocol=flowercoin
+exec=factor-qt '%u'
+protocol=factor
 input=none
 output=none
 helper=true

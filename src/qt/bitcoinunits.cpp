@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Flowercoin developers
+// Copyright (c) 2014-2015 The Factor developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(FLOWERCOIN);
-    unitlist.append(mFLOWERCOIN);
-    unitlist.append(uFLOWERCOIN);
+    unitlist.append(FACTOR);
+    unitlist.append(mFACTOR);
+    unitlist.append(uFACTOR);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case FLOWERCOIN:
-    case mFLOWERCOIN:
-    case uFLOWERCOIN:
+    case FACTOR:
+    case mFACTOR:
+    case uFACTOR:
     case duffs:
         return true;
     default:
@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case FLOWERCOIN: return QString("flowercoin");
-        case mFLOWERCOIN: return QString("mflowercoin");
-        case uFLOWERCOIN: return QString::fromUtf8("uflowercoin");
+        case FACTOR: return QString("factor");
+        case mFACTOR: return QString("mfactor");
+        case uFACTOR: return QString::fromUtf8("ufactor");
         case duffs: return QString("duffs");
         default: return QString("???");
     }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("FLOWERCOIN");
-            case mFLOWERCOIN: return QString("mFLOWERCOIN");
-            case uFLOWERCOIN: return QString::fromUtf8("μFLOWERCOIN");
+            case FACTOR: return QString("FACTOR");
+            case mFACTOR: return QString("mFACTOR");
+            case uFACTOR: return QString::fromUtf8("μFACTOR");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -69,9 +69,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("tFLOWERCOIN");
-            case mFLOWERCOIN: return QString("mtFLOWERCOIN");
-            case uFLOWERCOIN: return QString::fromUtf8("μtFLOWERCOIN");
+            case FACTOR: return QString("tFACTOR");
+            case mFACTOR: return QString("mtFACTOR");
+            case uFACTOR: return QString::fromUtf8("μtFACTOR");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("Flowercoin");
-            case mFLOWERCOIN: return QString("Milli-Flowercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uFLOWERCOIN: return QString("Micro-Flowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Flowercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case FACTOR: return QString("Factor");
+            case mFACTOR: return QString("Milli-Factor (1 / 1" THIN_SP_UTF8 "000)");
+            case uFACTOR: return QString("Micro-Factor (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Factor (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -95,10 +95,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("TestFlowercoins");
-            case mFLOWERCOIN: return QString("Milli-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uFLOWERCOIN: return QString("Micro-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestFlowercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case FACTOR: return QString("TestFactors");
+            case mFACTOR: return QString("Milli-TestFactor (1 / 1" THIN_SP_UTF8 "000)");
+            case uFACTOR: return QString("Micro-TestFactor (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestFactor (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -108,9 +108,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case FLOWERCOIN:  return 100000000;
-    case mFLOWERCOIN: return 100000;
-    case uFLOWERCOIN: return 100;
+    case FACTOR:  return 100000000;
+    case mFACTOR: return 100000;
+    case uFACTOR: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -120,9 +120,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case FLOWERCOIN: return 8;
-    case mFLOWERCOIN: return 5;
-    case uFLOWERCOIN: return 2;
+    case FACTOR: return 8;
+    case mFACTOR: return 5;
+    case uFACTOR: return 2;
     case duffs: return 0;
     default: return 0;
     }

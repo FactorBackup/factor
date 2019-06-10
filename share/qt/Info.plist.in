@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Flowercoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Factor Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Flowercoin-Qt</string>
+  <string>Factor-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.dmrtsvetkov.Flowercoin-Qt</string>
+  <string>io.dmrtsvetkov.Factor-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.flowercoin.FlowercoinPayment</string>
+      <string>io.factor.FactorPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>flowercoin</string>
+        <string>factor</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.flowercoin.paymentrequest</string>
+      <string>io.factor.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Flowercoin payment request</string>
+      <string>Factor payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-flowercoin-payment-request</string>
+        <string>application/x-factor-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>dmrtsvetkovmentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.flowercoin.paymentrequest</string>
+        <string>io.factor.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

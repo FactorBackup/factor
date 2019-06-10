@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Flowercoin developers
+// Copyright (c) 2014-2015 The Factor developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -23,8 +23,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Flowercoin (http://www.dmrtsvetkov.io/),
- * which enables instant payments to anyone, anywhere in the world. Flowercoin uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Factor (http://www.dmrtsvetkov.io/),
+ * which enables instant payments to anyone, anywhere in the world. Factor uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,13 +65,13 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/flowercoin.conf are parsed in qt/flowercoin.cpp's main()
+    // If Qt is used, parameters/factor.conf are parsed in qt/factor.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version"))
     {
-        std::string strUsage = _("Flowercoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Factor Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version"))
         {
@@ -80,7 +80,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  flowercoind [options]                     " + _("Start Flowercoin Core Daemon") + "\n";
+                  "  factord [options]                     " + _("Start Factor Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -119,19 +119,19 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "flowercoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "factor:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in flowercoind anymore. Use the flowercoin-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in factord anymore. Use the factor-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Flowercoin server starting\n");
+            fprintf(stdout, "Factor server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -188,7 +188,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect flowercoind signal handlers
+    // Connect factord signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

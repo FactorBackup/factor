@@ -1,8 +1,8 @@
-// Copyright (c) 2014-2017 The Flowercoin Core developers
+// Copyright (c) 2014-2017 The Factor Core developers
 
 #include "cachemultimap.h"
 
-#include "test/test_flowercoin.h"
+#include "test/test_factor.h"
 
 #include <algorithm>
 #include <iostream>

@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.dmrtsvetkov.Flowercoin-Qt";
+        return @"io.dmrtsvetkov.Factor-Qt";
     } else {
         return [self __bundleIdentifier];
     }

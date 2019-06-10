@@ -7,7 +7,7 @@
 #include "uint256.h"
 #include "util.h"
 
-#include "test/test_flowercoin.h"
+#include "test/test_factor.h"
 
 #include <boost/test/unit_test.hpp>
 

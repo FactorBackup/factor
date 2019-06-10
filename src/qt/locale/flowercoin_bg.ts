@@ -62,12 +62,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Flowercoin адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
+        <source>These are your Factor addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите Factor адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Flowercoin адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
+        <source>These are your Factor addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Factor адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</source>
-        <translation>Внимание: Ако шифрирате вашия портфейл и загубите паролата си,  &lt;b&gt;ЩЕ ЗАГУБИТЕ ВСИЧКИ FLOWERCOIN МОНЕТИ!&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FACTOR&lt;/b&gt;!</source>
+        <translation>Внимание: Ако шифрирате вашия портфейл и загубите паролата си,  &lt;b&gt;ЩЕ ЗАГУБИТЕ ВСИЧКИ FACTOR МОНЕТИ!&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>Flowercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
-        <translation>Flowercoin ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
+        <source>Factor will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your factors from being stolen by malware infecting your computer.</source>
+        <translation>Factor ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Ядро</translation>
+        <source>Factor Core</source>
+        <translation>Factor Ядро</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <source>Send coins to a Flowercoin address</source>
-        <translation>Изпращане на монети към Flowercoin адрес</translation>
+        <source>Send coins to a Factor address</source>
+        <translation>Изпращане на монети към Factor адрес</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
-        <translation>Заявка за плащане (генерира QR кодове и Flowercoin: URI)</translation>
+        <source>Request payments (generates QR codes and factor: URIs)</source>
+        <translation>Заявка за плащане (генерира QR кодове и Factor: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About Flowercoin Core</source>
-        <translation>&amp;За Flowercoin ядрото</translation>
+        <source>&amp;About Factor Core</source>
+        <translation>&amp;За Factor ядрото</translation>
     </message>
     <message>
-        <source>Show information about Flowercoin Core</source>
-        <translation>Покаци информация за Flowercoin Core</translation>
+        <source>Show information about Factor Core</source>
+        <translation>Покаци информация за Factor Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Flowercoin</source>
-        <translation>Промяна на опции за конфигуриране на Flowercoin</translation>
+        <source>Modify configuration options for Factor</source>
+        <translation>Промяна на опции за конфигуриране на Factor</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your Flowercoin addresses to prove you own them</source>
-        <translation>Подпиши съобщения с твоите Flowercoin адреси за да докажеш че ги притежаваш</translation>
+        <source>Sign messages with your Factor addresses to prove you own them</source>
+        <translation>Подпиши съобщения с твоите Factor адреси за да докажеш че ги притежаваш</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Flowercoin addresses</source>
-        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен Flowercoin адрес</translation>
+        <source>Verify messages to ensure they were signed with specified Factor addresses</source>
+        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен Factor адрес</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a flowercoin: URI or payment request</source>
-        <translation>Отвори Flowercoin: URI или заявка за плащане</translation>
+        <source>Open a factor: URI or payment request</source>
+        <translation>Отвори Factor: URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>Flowercoin Core client</source>
-        <translation>Flowercoin Core клиент</translation>
+        <source>Factor Core client</source>
+        <translation>Factor Core клиент</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the Flowercoin Core help message to get a list with possible Flowercoin command-line options</source>
-        <translation>Покажи съобщението за помощ на Flowercoin ядрото за да получиш списък на възможните опции за командния ред</translation>
+        <source>Show the Factor Core help message to get a list with possible Factor command-line options</source>
+        <translation>Покажи съобщението за помощ на Factor ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Flowercoin network</source>
-        <translation><numerusform>%n активни връзки към Flowercoin мрежата</numerusform><numerusform>%n активни връзки към Flowercoin мрежата</numerusform></translation>
+        <source>%n active connection(s) to Factor network</source>
+        <translation><numerusform>%n активни връзки към Factor мрежата</numerusform><numerusform>%n активни връзки към Factor мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,28 +864,28 @@ Address: %4
         <translation>Моля изберете ниво на сигурност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Използване на 2 различни masternodes за смесване на средства до 1000 FLOWERCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 FACTOR</source>
+        <translation>Използване на 2 различни masternodes за смесване на средства до 1000 FACTOR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Използване на 8 различни masternodes за смесване на средства до 1000 FLOWERCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 FACTOR</source>
+        <translation>Използване на 8 различни masternodes за смесване на средства до 1000 FACTOR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Използване на 16 различни masternodes за смесване на средства до 1000 FLOWERCOIN</translation>
+        <translation>Използване на 16 различни masternodes за смесване на средства до 1000 FACTOR</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Това е най-бързият вариант, анонимизиране на 1000 FLOWERCOIN ще ви струва около 0.025 FLOWERCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 FACTOR to anonymize 1000 FACTOR</source>
+        <translation>Това е най-бързият вариант, анонимизиране на 1000 FACTOR ще ви струва около 0.025 FACTOR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Това е средно бърз вариант, анонимизиране на 1000 FLOWERCOIN ще ви струва около 0.05 FLOWERCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 FACTOR to anonymize 1000 FACTOR</source>
+        <translation>Това е средно бърз вариант, анонимизиране на 1000 FACTOR ще ви струва около 0.05 FACTOR</translation>
     </message>
     <message>
-        <source>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</source>
-        <translation>0.1 FLOWERCOIN за всеки 1000 FLOWERCOIN които анонимизирате.</translation>
+        <source>0.1 FACTOR per 1000 FACTOR you anonymize.</source>
+        <translation>0.1 FACTOR за всеки 1000 FACTOR които анонимизирате.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,16 +896,16 @@ Address: %4
         <translation>Настройка на Darksend </translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на Flowercoin.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на Factor.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на Flowercoin.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на Factor.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на Flowercoin.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на Factor.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Address: %4
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Flowercoin address.</source>
-        <translation>Въведеният адрес "%1" не е валиден Flowercoin адрес.</translation>
+        <source>The entered address "%1" is not a valid Factor address.</source>
+        <translation>Въведеният адрес "%1" не е валиден Factor адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin ядро</translation>
+        <source>Factor Core</source>
+        <translation>Factor ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Flowercoin Core</source>
-        <translation>За Flowercoin ядрото</translation>
+        <source>About Factor Core</source>
+        <translation>За Factor ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Flowercoin Core.</source>
-        <translation>Добре дошли в ядрото на Flowercoin.</translation>
+        <source>Welcome to Factor Core.</source>
+        <translation>Добре дошли в ядрото на Factor.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flowercoin Core will store its data.</source>
-        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Flowercoin да съхранява своята информация.</translation>
+        <source>As this is the first time the program is launched, you can choose where Factor Core will store its data.</source>
+        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Factor да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Flowercoin Core will download and store a copy of the Flowercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Flowercoin ще свали и съхрани копие на Flowercoin регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
+        <source>Factor Core will download and store a copy of the Factor block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Factor ще свали и съхрани копие на Factor регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Address: %4
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin ядро</translation>
+        <source>Factor Core</source>
+        <translation>Factor ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
-        <source>Automatically start Flowercoin after logging in to the system.</source>
-        <translation>Автоматично стартиране на Flowercoin след влизане в системата.</translation>
+        <source>Automatically start Factor after logging in to the system.</source>
+        <translation>Автоматично стартиране на Factor след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Flowercoin on system login</source>
-        <translation>&amp;Стартирне на Flowercoin при влизане в системата.</translation>
+        <source>&amp;Start Factor on system login</source>
+        <translation>&amp;Стартирне на Factor при влизане в системата.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1147,15 +1147,15 @@ Address: %4
     </message>
     <message>
         <source>Darksend rounds to use</source>
-        <translation>Използвани Flowercoin цикли</translation>
+        <translation>Използвани Factor цикли</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
         <translation>Тази сума действа като праг, за да се изключи Darksend, когато той е достигнат.</translation>
     </message>
     <message>
-        <source>Amount of Flowercoin to keep anonymized</source>
-        <translation>Постоянно поддържано количество анонимни Flowercoin монети </translation>
+        <source>Amount of Factor to keep anonymized</source>
+        <translation>Постоянно поддържано количество анонимни Factor монети </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Address: %4
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the Flowercoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с мрежата на Flowercoin чрез SOCKS5 прокси.</translation>
+        <source>Connect to the Factor network through a SOCKS5 proxy.</source>
+        <translation>Свързване с мрежата на Factor чрез SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Address: %4
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>Automatically open the Flowercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за Flowercoin клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the Factor client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за Factor клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,14 +1258,14 @@ Address: %4
         <translation>Език на потребителски &amp;изглед :</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Flowercoin.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Flowercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Factor.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Factor.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/factor/</source>
         <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/factor/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Flowercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с Flowercoin мрежата, но този процес все още не е завършен.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Factor network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с Factor мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Количество и цикли:</translation>
     </message>
     <message>
-        <source>0 FLOWERCOIN / 0 Rounds</source>
-        <translation>0 FLOWERCOIN / 0 Цикъла</translation>
+        <source>0 FACTOR / 0 Rounds</source>
+        <translation>0 FACTOR / 0 Цикъла</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Грешка в заявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Не може да стартира flowercoin: кликни за плащане на притежателя</translation>
+        <source>Cannot start factor: click-to-pay handler</source>
+        <translation>Не може да стартира factor: кликни за плащане на притежателя</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Невалиден адрес за плащане %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Flowercoin address or malformed URI parameters.</source>
-        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен Flowercoin адрес или неправилно зададени URI параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Factor address or malformed URI parameters.</source>
+        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен Factor адрес или неправилно зададени URI параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Flowercoin address (e.g. %1)</source>
-        <translation>Въведете Flowercoin адрес (напр.%1)</translation>
+        <source>Enter a Factor address (e.g. %1)</source>
+        <translation>Въведете Factor адрес (напр.%1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Брой връзки</translation>
     </message>
     <message>
-        <source>Open the Flowercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на Flowercoin от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the Factor debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на Factor от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Изход:</translation>
     </message>
     <message>
-        <source>Welcome to the Flowercoin RPC console.</source>
-        <translation>Добре дошли в Flowercoin RPC (Remote Procedure Call) конзолата.</translation>
+        <source>Welcome to the Factor RPC console.</source>
+        <translation>Добре дошли в Factor RPC (Remote Procedure Call) конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Flowercoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Factor network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Factor.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Flowercoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Factor network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Factor.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,8 +2292,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</source>
-        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на flowercoin транзакции отколкото мрежата може да обработи.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for factor transactions than the network can process.</source>
+        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на factor транзакции отколкото мрежата може да обработи.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Плати само минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Flowercoin address</source>
-        <translation>Внимание: Невалиден Flowercoin адрес</translation>
+        <source>Warning: Invalid Factor address</source>
+        <translation>Внимание: Невалиден Factor адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>The Flowercoin address to send the payment to</source>
-        <translation>Flowercoin адресът да изпрати плащането към </translation>
+        <source>The Factor address to send the payment to</source>
+        <translation>Factor адресът да изпрати плащането към </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Flowercoin network.</source>
-        <translation>Съобщението което беше прикрепено към flowercoin: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Flowercoin мрежата.</translation>
+        <source>A message that was attached to the factor: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Factor network.</source>
+        <translation>Съобщението което беше прикрепено към factor: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Factor мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flowercoin Core is shutting down...</source>
-        <translation>Flowercoin ядрото се изключва...</translation>
+        <source>Factor Core is shutting down...</source>
+        <translation>Factor ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
     </message>
     <message>
-        <source>The Flowercoin address to sign the message with</source>
-        <translation>Flowercoin адресът да подпише съобщението</translation>
+        <source>The Factor address to sign the message with</source>
+        <translation>Factor адресът да подпише съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Копиране на текущия подпис в системния клипборд</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Flowercoin address</source>
-        <translation>Подпиши съобщението за да докажеш че притежаваш този Flowercoin адрес</translation>
+        <source>Sign the message to prove you own this Factor address</source>
+        <translation>Подпиши съобщението за да докажеш че притежаваш този Factor адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Въведете подписания адрес, съобщението (уверете се, че сте копирали редовете, спациите, табовете и другите точно) и подпишете отдолу, за да удостоверите съобщението. Внимавайте да не вмъкнете излишни символи в подписа от това, което е в самото съобщение, за да избегнете риска от злонамерна външа намеса.</translation>
     </message>
     <message>
-        <source>The Flowercoin address the message was signed with</source>
-        <translation>Flowercoin адресът ,с който е подписано съобщението</translation>
+        <source>The Factor address the message was signed with</source>
+        <translation>Factor адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Flowercoin address</source>
-        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен Flowercoin адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Factor address</source>
+        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен Factor адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Ядро</translation>
+        <source>Factor Core</source>
+        <translation>Factor Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The Flowercoin Core developers</source>
-        <translation>Водещи Flowercoin разработчици</translation>
+        <source>The Factor Core developers</source>
+        <translation>Водещи Factor разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Изпращане</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FLOWERCOIN.</source>
-        <translation>InstantX не поддържа изпращане на толкова големи суми. Транзакциите са ограничени до %1 FLOWERCOIN.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FACTOR.</source>
+        <translation>InstantX не поддържа изпращане на толкова големи суми. Транзакциите са ограничени до %1 FACTOR.</translation>
     </message>
 </context>
 <context>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>factor-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flowercoin Core is probably already running.</source>
-        <translation>Не може да се заключи дата директорията %s. Flowercoin ядрото вече работи.</translation>
+        <source>Cannot obtain a lock on data directory %s. Factor Core is probably already running.</source>
+        <translation>Не може да се заключи дата директорията %s. Factor ядрото вече работи.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,16 +3382,16 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flowercoin Core is probably already running.</source>
-        <translation>Не може да се свърже с %s на този компютър. Flowercoin ядрото най-вероятно вече работи.</translation>
+        <source>Unable to bind to %s on this computer. Factor Core is probably already running.</source>
+        <translation>Не може да се свърже с %s на този компютър. Factor ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Не са намерени достатъчно Darksend деноминирани средства за тази транзакция.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Не са намерени достатъчно Darksend неденоминирани средства за тази транзакция, които не са равни на 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FACTOR.</source>
+        <translation>Не са намерени достатъчно Darksend неденоминирани средства за тази транзакция, които не са равни на 1000 FACTOR.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Изтриване на всички транзакции на портфейла и  възстановява само тези части на блок веригата чрез -rescan при стартиране</translation>
     </message>
     <message>
-        <source>Disable all Flowercoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключване на всички специфични Flowercoin функции (Masternodes, Darksend, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
+        <source>Disable all Factor specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключване на всички специфични Factor функции (Masternodes, Darksend, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Грешка: Открит е неподдържан аргумент -socks .настройка SOCKS версия вече не е възможна, само SOCKS5 прокси се поддържа.</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в FLOWERCOIN/Kb) по-малки от това се считат за нулева такса за прилагане (по подразбиране: %s)</translation>
+        <source>Fees (in FACTOR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в FACTOR/Kb) по-малки от това се считат за нулева такса за прилагане (по подразбиране: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в FLOWERCOIN/Kb) по-малки от това се считат за нулева такса при създаване на транзакция (по подразбиране: %s)</translation>
+        <source>Fees (in FACTOR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в FACTOR/Kb) по-малки от това се считат за нулева такса при създаване на транзакция (по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3710,23 +3710,23 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Този продукт включва софтуер, разработен от проекта OpenSSL за използване в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографски софтуер, написан от Eric Young и UPnP софтуер, написан от Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use factord, or the -server option to factor-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=factorrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Factor Alert" admin@foo.com
 </source>
-        <translation>За използване на flowercoind, или the -server опция към flowercoin-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=flowercoinrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com 
+        <translation>За използване на factord, или the -server опция към factor-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=factorrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "Factor Alert" admin@foo.com 
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 FACTOR.</source>
+        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 FACTOR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3737,8 +3737,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>Внимание: -maxtxfee  е с много голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите единична транзакция.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flowercoin Core will not work properly.</source>
-        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Flowercoin Core няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Factor Core will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Factor Core няма да работи правилно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3791,8 +3791,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flowercoin Core Developers</source>
-        <translation>Запазени права (C) 2014-%i Flowercoin Core разработчиците</translation>
+        <source>Copyright (C) 2014-%i The Factor Core Developers</source>
+        <translation>Запазени права (C) 2014-%i Factor Core разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3823,8 +3823,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flowercoin Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Flowercoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Factor Core</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Factor Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3839,8 +3839,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>Грешка:Открит е неподдържан аргумент -tor, моля използвай -onion.</translation>
     </message>
     <message>
-        <source>Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Такси (в FLOWERCOIN/Kb) добавена към направената транзакция(по подразбиране: %s)</translation>
+        <source>Fee (in FACTOR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такси (в FACTOR/Kb) добавена към направената транзакция(по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3895,8 +3895,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flowercoin Core is shutting down.</source>
-        <translation>Инициализационната проверка не успешна. Flowercoin ядрото се изключва.</translation>
+        <source>Initialization sanity check failed. Factor Core is shutting down.</source>
+        <translation>Инициализационната проверка не успешна. Factor ядрото се изключва.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4147,8 +4147,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>Използвай UPnP за определяне на порта за слушане (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flowercoin Core to complete</source>
-        <translation>Портфейлът трябва да бъде презаписан: рестартирайте Flowercoin за да завършите</translation>
+        <source>Wallet needed to be rewritten: restart Factor Core to complete</source>
+        <translation>Портфейлът трябва да бъде презаписан: рестартирайте Factor за да завършите</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4207,8 +4207,8 @@ for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
         <translation>KeePassHttp ключ за  AES криптирана връзка с KeePass</translation>
     </message>
     <message>
-        <source>Keep N FLOWERCOIN anonymized (default: %u)</source>
-        <translation>Поддържай N Flowercoin анонимизирани (по подразбиране: %u)</translation>
+        <source>Keep N FACTOR anonymized (default: %u)</source>
+        <translation>Поддържай N Factor анонимизирани (по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

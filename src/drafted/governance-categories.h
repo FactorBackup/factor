@@ -4,22 +4,22 @@
 
 	* means the category has an associated class
 	
-	CFlowercoinNetwork: FLOWERCOIN NETWORK (ROOT)
+	CFactorNetwork: FACTOR NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CFlowercoinProject> vecProjects;
+		vector<CFactorProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CFlowercoinProject:
+	CFactorProject:
 	has:
 		name
 		employees
 
 */
 
-	// FLOWERCOIN NETWORK (ROOT)
+	// FACTOR NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=FLOWERCOINDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=FACTORDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES
