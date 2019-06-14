@@ -56,11 +56,11 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  0, uint256("0x00000da944af686dc621d240fd307ccf822689adeb727e1cd00ab59fd62c2582"))
+        (  0, uint256("0x00000950a4052767c3d72031d3c71edd8c6992c9f8823f206e441bc1ce891b8d"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1560256083, // * UNIX timestamp of last checkpoint block
+        1560491626, // * UNIX timestamp of last checkpoint block
         0,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         2800        // * estimated number of transactions per day after checkpoint
@@ -68,18 +68,18 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-        ( 0, uint256("000004aea6058d3137171debc51a4f132a515085434769c01584fb74b7a28f02"))
+        ( 0, uint256("0000091d4163c48cd8883f0c61f3402570dc1e4c5fd2015593574ddc5d196e7a"))
         ;
 static const Checkpoints::CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1560256164,
+        1560491699,
         0,
         500
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
         boost::assign::map_list_of
-        ( 0, uint256("0x7950507bf2a9a51bfd9a2a1b7bc9af1876a39cd0755870a18e4f2dba530636ab"))
+        ( 0, uint256("0x0d87104148e4593769f026138b5fb4d40d2bdb871de41d46e7a3a772f5fa56b2"))
         ;
 static const Checkpoints::CCheckpointData dataRegtest = {
         &mapCheckpointsRegtest,
@@ -98,11 +98,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xbe;
-        pchMessageStart[1] = 0x0d;
+        pchMessageStart[0] = 0xb2;
+        pchMessageStart[1] = 0xfd;
         pchMessageStart[2] = 0x6d;
         pchMessageStart[3] = 0xbd;
-        vAlertPubKey = ParseHex("04498abce6b91fc756a0721a90cee037e92635feda90c24a069cf48da4179925238b352e40c3f55dec4bc64707afa313bb772f5bb8192e2b137de967b93f5e3051");
+        vAlertPubKey = ParseHex("046c30e6a8fae07c6b429b11914d58c33a16744f120906176266ddec019a97de349bbebde6136e1bae9f20a0d96c4fd20baafa8faf1d6969fbbb3a24f0c0a6a447");
         nDefaultPort = 1993;
         bnProofOfWorkLimit = ~uint256(0) >> 20;  // Factor starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
@@ -111,7 +111,7 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 10 * 60 * 60; // Factor: 10 hours
-        nTargetSpacing = 1 * 60; // Factor: 1 minutes
+        nTargetSpacing = 1 * 1; // Factor: 1 minutes
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -123,34 +123,34 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Factorchain will be create the future greats goals and will reach the top";
+        const char* pszTimestamp = "Factor will take the lead in the blockchain innovation, We provide new and essential technology to leap towards a future world connected via blockchains.";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 50 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04498abce6b91fc756a0721a90cee037e92635feda90c24a069cf48da4179925238b352e40c3f55dec4bc64707afa313bb772f5bb8192e2b137de967b93f5e3051") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("046c30e6a8fae07c6b429b11914d58c33a16744f120906176266ddec019a97de349bbebde6136e1bae9f20a0d96c4fd20baafa8faf1d6969fbbb3a24f0c0a6a447") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1560256083;
+        genesis.nTime    = 1560491626;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 1901016;
+        genesis.nNonce   = 1156216;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000da944af686dc621d240fd307ccf822689adeb727e1cd00ab59fd62c2582"));
-        assert(genesis.hashMerkleRoot == uint256("0x698c8798538c9ced05266db670a79de6bb721e01fdbd1364a7a856ea25761033"));
+        assert(hashGenesisBlock == uint256("0x00000950a4052767c3d72031d3c71edd8c6992c9f8823f206e441bc1ce891b8d"));
+        assert(genesis.hashMerkleRoot == uint256("0x367da87f2966032adc8fed8852ee114407f4ae128ff2667b495cd9dc752b9617"));
 
-        vSeeds.push_back(CDNSSeedData("165.22.116.58", "165.22.116.58"));
-        vSeeds.push_back(CDNSSeedData("165.22.118.78", "165.22.118.78"));
-        vSeeds.push_back(CDNSSeedData("165.22.112.126", "165.22.112.126"));
+        vSeeds.push_back(CDNSSeedData("factor.io", "factor.io"));
+        vSeeds.push_back(CDNSSeedData("main.factor.io", "main.factor.io"));
+        vSeeds.push_back(CDNSSeedData("seed.factor.org", "seed.factor.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 36);                    // Factor addresses start with 'F'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Factor script addresses start with '7'
         base58Prefixes[SECRET_KEY] =     list_of(204);                    // Factor private keys start with '7' or 'X'
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // Factor BIP32 pubkeys start with 'drkv'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // Factor BIP32 prvkeys start with 'drkp'
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // Factor BIP32 pubkeys start with 'drkv' (Bitcoin defaults)
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // Factor BIP32 prvkeys start with 'drkp' (Bitcoin defaults)
         base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000005);             // Factor BIP44 coin type is '5'
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
@@ -165,10 +165,10 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "047b97ade128ba62b017bb52fe3239f1d71ed43d10f09d0d56dbea0b287ed95af37d935be27475f163e25cafc59b447f2b66764bf6f17fb4c4122e7af84399f597";
-        strMasternodePaymentsPubKey = "047b97ade128ba62b017bb52fe3239f1d71ed43d10f09d0d56dbea0b287ed95af37d935be27475f163e25cafc59b447f2b66764bf6f17fb4c4122e7af84399f597";
-        strDarksendPoolDummyAddress = "Xq19GqFvajRrEdDHYRKGYjTsQfpV5jyipF";
-        nStartMasternodePayments = 1560256083;
+        strSporkKey = "0455c60c60a13f9cf17f3213b3e74b2c2760dd0f9ced535d457934e630953b042d3f541b00192559344bd4a6849f52f6aa527626b4a5cc6c9ae3c3d567879a4e0c";
+        strMasternodePaymentsPubKey = "0455c60c60a13f9cf17f3213b3e74b2c2760dd0f9ced535d457934e630953b042d3f541b00192559344bd4a6849f52f6aa527626b4a5cc6c9ae3c3d567879a4e0c";
+        strDarksendPoolDummyAddress = "";
+        nStartMasternodePayments = 1560491626;
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -186,34 +186,40 @@ public:
     CTestNetParams() {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0xcd;
-        pchMessageStart[1] = 0xe3;
+        pchMessageStart[0] = 0xde;
+        pchMessageStart[1] = 0xe4;
         pchMessageStart[2] = 0xca;
-        pchMessageStart[3] = 0xff;
-        vAlertPubKey = ParseHex("04e4127cf9aceb0401a12586c6f6159c5692d75fe45b59fdbeb47cb6b322b60727d508d6d7782126e5340be7360bc284d04734519aa5cf808bfd6eaa97221f760e");
+        pchMessageStart[3] = 0xfd;
+        vAlertPubKey = ParseHex("046c30e6a8fae07c6b429b11914d58c33a16744f120906176266ddec019a97de349bbebde6136e1bae9f20a0d96c4fd20baafa8faf1d6969fbbb3a24f0c0a6a447");
         nDefaultPort = 11993;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
         nTargetTimespan = 10 * 60 * 60; // Factor: 10 hours
-        nTargetSpacing = 1 * 60; // Factor: 1 minutes
+        nTargetSpacing = 1 * 1; // Factor: 1 minutes
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1560256164;
-        genesis.nNonce = 600467;
+        genesis.nTime = 1560491699;
+        genesis.nNonce = 1910420;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000004aea6058d3137171debc51a4f132a515085434769c01584fb74b7a28f02"));
+        assert(hashGenesisBlock == uint256("0x0000091d4163c48cd8883f0c61f3402570dc1e4c5fd2015593574ddc5d196e7a"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
+        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
+        *///legacy seeders
+        vSeeds.push_back(CDNSSeedData("factor.io",  "factor.io"));
+        vSeeds.push_back(CDNSSeedData("main.factor.io", "main.factor.io"));
+        vSeeds.push_back(CDNSSeedData("seed.factor.org", "seed.factor.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet factor addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet factor script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY]     = list_of(239);                    // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x3a)(0x80)(0x61)(0xa0); // Testnet factor BIP32 pubkeys start with 'DRKV'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x3a)(0x80)(0x58)(0x37); // Testnet factor BIP32 prvkeys start with 'DRKP'
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x3a)(0x80)(0x61)(0xa0); // Testnet factor BIP32 pubkeys start with 'DRKV' (Bitcoin defaults)
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x3a)(0x80)(0x58)(0x37); // Testnet factor BIP32 prvkeys start with 'DRKP' (Bitcoin defaults)
         base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000001);             // Testnet factor BIP44 coin type is '5' (All coin's testnet default)
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -227,10 +233,10 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "044e05de49b372beb2b12a187e4323364fdb7329a15a45234a3fbee64b545cfa1e4f97b67d253be0485de44cc96c90cb009014ca9fed8e60f544242927606047e6";
-        strMasternodePaymentsPubKey = "044e05de49b372beb2b12a187e4323364fdb7329a15a45234a3fbee64b545cfa1e4f97b67d253be0485de44cc96c90cb009014ca9fed8e60f544242927606047e6";
-        strDarksendPoolDummyAddress = "y1EZuxhhNMAUofTBEeLqGE1bJrpC2TWRNp";
-        nStartMasternodePayments = 1560256164;
+        strSporkKey = "04d6c951f133517d8d1a29b958147394e813d94a490b65d7b38e7caa5a10fd3de425a3becc4a8a7f1e3af2270c00cddb67e452aee76a7e233e77417b341a58b05b";
+        strMasternodePaymentsPubKey = "04d6c951f133517d8d1a29b958147394e813d94a490b65d7b38e7caa5a10fd3de425a3becc4a8a7f1e3af2270c00cddb67e452aee76a7e233e77417b341a58b05b";
+        strDarksendPoolDummyAddress = "";
+        nStartMasternodePayments = 1560491699;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
     {
@@ -248,8 +254,8 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
         pchMessageStart[0] = 0xfd;
-        pchMessageStart[1] = 0xc2;
-        pchMessageStart[2] = 0xb7;
+        pchMessageStart[1] = 0xc3;
+        pchMessageStart[2] = 0xb2;
         pchMessageStart[3] = 0xdc;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
@@ -257,23 +263,17 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
         nTargetTimespan = 10 * 60 * 60; // Factor: 10 hours
-        nTargetSpacing = 1 * 60; // Factor: 1 minutes
+        nTargetSpacing = 1 * 1; // Factor: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1560256164;
+        genesis.nTime = 1560491699;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 0;
+        genesis.nNonce = 1;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19931;
-        assert(hashGenesisBlock == uint256("0x7950507bf2a9a51bfd9a2a1b7bc9af1876a39cd0755870a18e4f2dba530636ab"));
+        assert(hashGenesisBlock == uint256("0x0d87104148e4593769f026138b5fb4d40d2bdb871de41d46e7a3a772f5fa56b2"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
-        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
-        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
-        *///legacy seeders
-        vSeeds.push_back(CDNSSeedData("165.22.116.58",  "165.22.116.58"));
-        vSeeds.push_back(CDNSSeedData("165.22.118.78", "165.22.118.78"));
-        vSeeds.push_back(CDNSSeedData("165.22.112.126", "165.22.112.126"));
 
         fRequireRPCPassword = false;
         fMiningRequiresPeers = false;
