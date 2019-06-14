@@ -900,7 +900,7 @@ public:
             const CTxIn vin = CTxIn(hashTx, i);
 
             if(pwallet->IsSpent(hashTx, i) || pwallet->IsLockedCoin(hashTx, i)) continue;
-            if(fMasterNode && vout[i].nValue == 1000*COIN) continue; // do not count MN-like outputs
+            if(fMasterNode && vout[i].nValue == 100000*COIN) continue; // do not count MN-like outputs
 
             const int rounds = pwallet->GetInputDarksendRounds(vin);
             if(rounds >=-2 && rounds < nDarksendRounds) {
