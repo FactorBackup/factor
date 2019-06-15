@@ -208,8 +208,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
-        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
+        /*vSeeds.push_back(CDNSSeedData("factor.io", "factor.io"));
+        vSeeds.push_back(CDNSSeedData("main.factor.io", "main.factor.io"));
         *///legacy seeders
         vSeeds.push_back(CDNSSeedData("factor.io",  "factor.io"));
         vSeeds.push_back(CDNSSeedData("main.factor.io", "main.factor.io"));
