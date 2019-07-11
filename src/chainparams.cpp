@@ -142,9 +142,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000cdf4978c6c97c81f3e58caabc27e4c36444fb72fbd5007988c55d7845db"));
         assert(genesis.hashMerkleRoot == uint256("0xdaf0082e3ec6d5acce3fd9a7777975325b3437428e8eea506a8df72e8f7fe1b4"));
 
-        vSeeds.push_back(CDNSSeedData("factormx.net", "factormx.net"));
-        vSeeds.push_back(CDNSSeedData("seedfactor.co.kr", "seedfactor.co.kr"));
-        vSeeds.push_back(CDNSSeedData("seedfactor.kr", "seedfactor.kr"));
+        vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 36);                    // Factor addresses start with 'F'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Factor script addresses start with '7'
@@ -208,12 +206,6 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        /*vSeeds.push_back(CDNSSeedData("factor.io", "factor.io"));
-        vSeeds.push_back(CDNSSeedData("main.factor.io", "main.factor.io"));
-        *///legacy seeders
-        vSeeds.push_back(CDNSSeedData("factormx.net",  "factormx.net"));
-        vSeeds.push_back(CDNSSeedData("seedfactor.co.kr", "seedfactor.co.kr"));
-        vSeeds.push_back(CDNSSeedData("seedfactor.kr", "seedfactor.kr"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet factor addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet factor script addresses start with '8' or '9'
