@@ -165,7 +165,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "04e9eb11b0469a90c69ec04b69bf37a91a8aa5ce79a7806f77e98f5f94256889ec4b25cdd75f96ecf36672e94ad68e2ec507bd531dcb5df55c53e0e0371674b6db";
         strMasternodePaymentsPubKey = "04e9eb11b0469a90c69ec04b69bf37a91a8aa5ce79a7806f77e98f5f94256889ec4b25cdd75f96ecf36672e94ad68e2ec507bd531dcb5df55c53e0e0371674b6db";
-        strDarksendPoolDummyAddress = "FYAEWTJss2vyKVLYJQkAezsYwmDP8J8463";
+        strDarksendPoolDummyAddress = "FZMCMFCjELKHuoon5nsbU5v7qXP3BugSQ2";
         nStartMasternodePayments = 1562904402;
     }
 
@@ -188,7 +188,7 @@ public:
         pchMessageStart[1] = 0xed;
         pchMessageStart[2] = 0xbd;
         pchMessageStart[3] = 0xc2;
-        vAlertPubKey = ParseHex("0445e42a1df5b9d6d27439340561ef79ff9ec6e6e93fff98c6ef4a524bc1feb6741e3f2638ae1a2f783ca29e096176e604ceb65631f5a2d8a9a60abe882350fbc8");
+        vAlertPubKey = ParseHex("04fcbdad7c48f71aef8aedf8ee466e7c9d76e1767c4cb74dad3e215657a66d55dfaef36d8d17980658f88bbdb1668e50db6e4bb3827886d156c968af37fab99c0d");
         nDefaultPort = 11993;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
